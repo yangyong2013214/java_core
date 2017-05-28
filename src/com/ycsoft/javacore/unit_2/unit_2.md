@@ -8,7 +8,7 @@
     
 ##### 2.1.1 下载JDK
     
-    访问[Oracle网站](http://www.oracle.com/technetwork/java/index.html)
+   访问[Oracle网站](http://www.oracle.com/technetwork/java/index.html)
     
     
 #### 2.2 Java "白皮书"的关键术语
