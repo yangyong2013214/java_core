@@ -1,27 +1,28 @@
 package com.ycsoft.javacore.unit_3.InputTest;
 
+import java.io.Console;
 import java.util.*;
 
 /**
  * This program demonstrates console input.
- * @version 1.10 2004-02-10
+ *
  * @author Cay Horstmann
+ * @version 1.10 2004-02-10
  */
-public class InputTest
-{
-   public static void main(String[] args)
-   {
-      Scanner in = new Scanner(System.in);
+public class InputTest {
+    public static void main(String[] args) {
 
-      // get first input
-      System.out.print("What is your name? ");
-      String name = in.nextLine();
+        Scanner in = new Scanner(System.in);
 
-      // get second input
-      System.out.print("How old are you? ");
-      int age = in.nextInt();
+        // get first input
+        System.out.print("What is your name? ");
+        String name = in.nextLine();
 
-      // display output on console
-      System.out.println("Hello, " + name + ". Next year, you'll be " + (age + 1));
-   }
+        // get second input
+        System.out.print("How old are you? ");
+        int age = in.nextInt();
+
+        // display output on console
+        System.out.println("Hello, " + name + ". Next year, you'll be " + (age + 1));
+    }
 }
