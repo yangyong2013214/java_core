@@ -1,5 +1,7 @@
 package com.ycsoft.javacore.unit_3.LotteryArray;
 
+import java.util.Arrays;
+
 /**
  * This program demonstrates a triangular array.
  * @version 1.20 2004-02-10
@@ -37,5 +39,6 @@ public class LotteryArray
             System.out.printf("%4d", odd);
          System.out.println();
       }
+
    }
 }
