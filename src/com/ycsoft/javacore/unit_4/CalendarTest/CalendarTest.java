@@ -12,6 +12,8 @@ public class CalendarTest
 {
    public static void main(String[] args)
    {
+      //设置地区，不同的地区看到不同的输出。
+      Locale.setDefault(Locale.US);
       // construct d as current date
       GregorianCalendar d = new GregorianCalendar();
 

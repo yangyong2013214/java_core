@@ -1,7 +1,9 @@
 package com.ycsoft.javacore.unit_4.PackageTest;
 
-import com.horstmann.corejava.*;
+
 // the Employee class is defined in that package
+
+import com.ycsoft.javacore.unit_4.PackageTest.com.horstmann.corejava.Employee;
 
 import static java.lang.System.*;
 
