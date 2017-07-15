@@ -9,6 +9,7 @@ import java.util.*;
  */
 public class ConstructorTest
 {
+
    public static void main(String[] args)
    {
       // fill the staff array with three Employee objects
